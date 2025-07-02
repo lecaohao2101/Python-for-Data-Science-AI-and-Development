@@ -1,0 +1,1095 @@
+===================================Module 1====================================================
+
+1. What is the value of x after the following lines of code?
+x=2
+x=x+2
+A. 4	
+B. 2
+
+
+
+
+
+2. What is the result of the following operation 1+3*2?
+A. 7	
+B. 12	
+C. 8
+
+
+
+
+
+3. What is the type of the following "7.1"
+A. What is the type of the following "7.1"	
+B. float	
+C. string
+
+
+
+
+
+4. What is the result of the following code segment: int(True)
+A. 1	
+B. 0	
+C. error
+
+
+
+
+
+5. In Python, what is the result of the following operation: '1'+'2' ?
+A. 3	
+B. '3'	
+C. '12'
+
+
+
+
+
+6. Given myvar='hello', how would you return myvar as uppercase?
+A. len(myvar)	
+B. myvar.find('hello')	
+C. myvar.upper()
+
+
+
+
+
+7. What is the result of the following :str(1)+str(1)?
+A. '11'		
+B. 2
+
+
+
+
+
+8. What is the result of the following: "123".replace("12", "ab") ?
+A. 'ab3'	
+B. '123ab'
+
+
+
+
+
+9. In Python 3, what is the type of the variable x after the following: x=2/2?
+A. float	
+B. int
+
+
+
+
+
+===================================Module 2====================================================
+
+1. Consider the tuple A=((11,12),[21,22]), that contains a tuple and list. What is the result of the following operation A[1]?
+A. ((11,12),[21,22])	
+B. [21,22]	
+C. (11,12)
+
+
+
+
+2. Consider the tuple A=((11,12),[21,22]), that contains a tuple and list. What is the result of the following operation A[0][1]?
+A. 21	
+B. 11	
+C. 12
+
+
+
+
+
+3. The method append does the following:
+A. adds one element to a list		
+B. merges two lists or insert multiple elements to a list 
+
+
+
+
+
+4. Consider the following list: A=["hard rock",10,1.2]
+What will list A contain after the following command is run: del(A[1]) ?
+A. [10,1.2]	
+B. ["hard rock", 1.2]	
+C. ["hard rock",10]
+
+
+
+
+
+5. If A is a list what does the following syntax do: B=A[:] ?
+A. assigns list A to list B	
+B. variable B references a new copy or clone of the original list A
+
+
+
+
+
+6. What is the result of the following: len(("disco",10,1.2, "hard rock",10))?
+A. 5	
+B. 6	
+C.0
+
+
+
+
+
+7. Consider the following dictionary: {"The Bodyguard":"1992", "Saturday Night Fever":"1977"}
+select the values
+A. "1977"	
+B. "1992"	
+C. "The Bodyguard"	
+D. "Saturday Night Fever"
+
+
+
+
+
+8. The variable release_year_dict is a Python Dictionary, what is the result of applying the following method: release_year_dict.values() ?
+A. retrieve the keys of the dictionary		
+B. retrieves, the values of the dictionary
+
+
+
+
+
+9. Consider the Set: V={'A','B'), what is the result of V.add('C')?
+A. {'A','B')	
+B. {'A','B','C')	
+C. error
+
+
+
+
+
+10. What is the result of the following: 'A' in {'A','B'} ?
+A. True		
+B. False
+
+
+
+
+
+===================================Module 3====================================================
+
+1. What is the output of the following code?
+x="Go"
+if (x=="Go"):
+	print('Go ')
+else:
+	print('Stop')
+print('Mike'
+
+A. Go Mike	
+B. Mike	      
+C. Stop Mike
+
+
+
+
+
+2. What is the result of the following lines of code?
+x=1
+x>-5
+A. True		
+B. False
+
+
+
+
+
+3. What is the output of the following few lines of code?
+x=5
+while (x!=2):
+	print(x)
+	x=x-2
+A. 5 4 3	
+B. 5 4 3 2	
+C. the program will never leave the loop
+
+
+
+
+
+4. What is the result of running the following lines of code ?
+class Points(object):
+	def __init__(self,x,y):
+		self.x=x
+		self.y=y
+	def print_point(self):
+		print('x=', self.x, 'y=', self.y)
+p1=Points(1,2)
+p1.print_point()
+A. x=1
+B. x=1 y=2
+C. y=2
+
+
+
+
+
+5. What is the output of the following few lines of code?
+for i,x in enumerate(['A', 'B', 'C']):
+	print(i+1,x)
+A. 1A 2B 3C
+B. 0A 1B 2C
+C. 0AA 1BB 2CC
+
+
+
+
+
+6. What is the result of running the following lines of code?
+class Points(object):
+	def __init__(self,x,y):
+		self.x=x
+		self.y=y
+	def print_point(self):
+		print('x=', self.x, 'y=', self.y)
+p2=Points(1,2)
+p2.x='A'
+p2.print_point()
+A. x=1y=2
+B. x= A y=2
+C. x=A, y=B
+
+
+
+
+
+7. Consider the function step, when will the function return a value of 1?
+def step(x):
+	if x>0:
+		y=1
+	else:
+		y=0
+	return y
+A. if x is larger than 0
+B. if x is equal to or less then zero
+C. if x is less than zero
+
+
+
+
+
+8. What is the output of the following lines of code?
+a=1
+def do(x):
+	a=100
+	return(x+a)
+print(do(1))
+A. 2
+B. 101
+C. 102
+
+
+
+
+
+9. Write a function name add that takes two parameter a and b, then return the output of a + b (Do not use any other variable! You do not need to run it. Only write the code about how you define it.)
+
+def add(a,b):
+	return a+b
+
+
+
+
+
+10. Why is it best practice to have multiple except statements with each type of error labeled correctly?
+A. Ensure the error is caught so the program will terminate
+B. In order to know what type of error was thrown and the location within the program
+C. To skip over certain blocks of code during execution
+D. It is not necessary to label errors
+
+
+
+
+
+===================================Module 4====================================================
+
+1. What is the result of the following lines of code?
+a=np.array([-1,1])
+b=np.array([1,1])
+np.dot(a,b)
+A. array([0,2])
+B. 1
+C. 0
+
+
+
+
+
+2. How do you perform matrix multiplication on the numpy arrays A and B ?
+A. A+B
+B. np.dot(A,B)
+C. A*B
+
+
+
+
+
+3. What values does the variable out take if the following lines of code are run?
+X=np.array([[1,0,1], [2,2,2]])
+out=X[0:2,2]
+out
+A. array([1,0])
+B. array([1,2])
+C. array([1,1])
+
+
+
+
+
+4. What is the value of Z after the following code is run?
+X=np.array([[1,0], [0,1]])
+Y=np.array([[2,2], [2,2]])
+Z=np.dot (X,Y)
+A. array([[2,2],[2,2]])
+B. array([[2,0],[0,2]])
+C. array([[3,2],[2,3]])
+
+
+
+
+
+5. Consider the following text file: Example1.txt:
+This is line 1
+This is line 2
+This is line 3
+What is the output of the following lines of code?
+
+with open("Exampl1.txt","r") as File1:
+	file_stuff=Filel.readline ()
+	print(file_stuff)
+A. This is line 1
+B. This is line 1	This is line 2
+C. This is line 3	This is line 1		This is line 2
+
+
+
+
+
+6. Consider the following line of code:
+with open(example1,"r") as file1:
+What mode is the file object in?
+A. read
+B. write
+C. append
+
+
+
+
+
+8. What do the following lines of code do?
+with open("Example3.txt", "w") as file1:
+file1.write("This is line C\n")
+A. Read the file "Example3.txt".
+B. Append the file "Example3.txt".
+C. error
+
+
+
+
+
+9. Consider the dataframe df. How would you access the element in the 1st row 3rd column
+A. df.iloc[2,0]
+B. df.iloc[1,3]
+C. df.iloc[0,2]
+
+
+
+
+
+10. What method gets the unique elements of the following: df['Length']?
+A. unique 
+B. head
+
+
+
+
+
+===================================Module 5====================================================
+
+1. What are the 3 parts to a response message?
+A. Start or status line, header, and body
+B. Bookmarks, history, and security
+C. HTTP headers, blank line, and body
+D. Encoding, body, and cache
+
+
+
+
+
+2. What is the purpose of this line of code "table_row=table.find_all(name='tr')" used in webscraping?
+A. It will find all of the data within the table marked with a tag "a"
+B. It will find all of the data within the table marked with a tag "tr" 
+C. It will find all of the data within the table marked with a tag "h1" 
+D. It will find all of the data within the table marked with a tag "p"
+
+
+
+
+3. In what data structure do HTTP responses generally return?
+A. Nested Lists
+B. Lists
+C. Tuples
+D. JSON
+
+
+
+
+
+4. The Python library we used to plot the chart in the lab is
+A. Matplotlib
+B. PyCoinGecko
+C. Pandas
+D. Plotly
+
+
+
+
+
+===================================Condition and Baranching====================================================
+
+1. what is the result of the following: 1=2
+A. True
+B. False
+C. SyntaxError:can't assign to literal
+
+
+
+
+
+2. What is the output of the following code segment:
+i=6
+i<5
+A. True
+B. False
+C. SyntaxError: can't assign to literal
+
+
+
+
+
+3. What is the result of the following: 5!=5
+A. False
+B. True
+
+
+
+
+
+4. What is the output of the following code segment: 'a'=='A'
+A. False
+B. True
+
+
+
+
+
+5. in the video, if age=18 what would be the result
+A. move on
+B. you can enter
+
+
+
+
+
+6. in the video what would be the result if we set the variable age as follows: age=-10
+A. go see Meat Loaf
+move on
+B. you can enter
+C. move on
+
+
+
+
+7. what is the result of the following: True or False
+A. True, an or statement is only False if all the Boolean values are False 
+B. False
+
+
+
+
+
+===================================Exception Handling====================================================
+
+1. Why do we use exception handlers?
+A. Terminate a program
+B. Write a file
+C. Read a file
+D. Catch errors within a program
+
+
+
+
+
+2. What is the purpose of a try...except statement?
+A. Catch and handle exceptions when an error occurs 
+B. Executes the code block only if a certain condition exists 
+C. Only executes if one condition is true
+D. Crash a program when errors occur
+
+
+
+
+
+======================================List and Tuples====================================================
+
+1. Consider the following tuple:
+say_what=('say',' what', 'you', 'will')
+what is the result of the following say_what[-1]
+A. 'you'
+B. 'say'
+C. 'will'
+D. 'what'
+
+
+
+
+
+2. Consider the following tuple A=(1,2,3,4,5). What is the result of the following: A[1:4]:
+A. (3,4,5) 
+B. (2,3,4)
+C. (2,3,4,5)
+
+
+
+
+
+3. Consider the following tuple A=(1,2,3,4,5), what is the result of the following: len(A)
+A. 4
+B. 5
+C. 6
+
+
+
+
+
+4. Consider the following list B=[1,2,[3,'a'],[4,'b']], what is the result of the following:B[3][1]
+A. "c"
+B. "b"
+C. [4,"b"]
+
+
+
+
+
+5. What is the result of the following operation?
+[1,2,3]+[1,1,1]
+
+A. [1, 2, 3, 1, 1, 1]
+B. [2,3,4] 
+C. TypeError
+
+
+
+
+
+6. What is the length of the list A = [1] after the following operation: A.append([2,3,4,5])
+A. 2
+B. 6
+C. 5
+
+
+
+
+
+7. What is the result of the following: "Hello
+Mike".split()
+A. ["Hello","Mike"]
+B. ["HelloMike"]
+C. ["H"]
+
+
+
+
+
+================================================Loops====================================================
+
+1. what will be the output of the following:
+for x in range(0,3):
+	print(x)
+A. 0 1 2 
+B. 0 1 2 3 
+
+
+
+
+
+2. what is the output of the following:
+for x in ['A','B','C']: 
+	print(x+'A')
+A. AA BA CA
+B. A B C
+
+
+
+
+
+3. what is the output of the following:
+for i,x in enumerate(['A''B','C']):
+	print(i,x)
+A. 0A 1B 2C
+B. AA BB CC
+
+
+
+
+
+=======================================NumPy in Python===================================================
+
+1. What is the Python library used for scientific computing and is a basis for Pandas?
+A. Requests
+B. datetime
+C. NumPy
+D. Tkinter
+
+
+
+
+2. What attribute is used to retrieve the number of elements in an array?
+A. a.size
+B. a.ndim
+C. a.shape
+D. a.dtype
+
+
+
+
+
+3. How would you change the first element to "10" in this array c:array([100,1,2,3,0])?
+A. c[1]=10
+B. c[4]=10
+C. c[2]=10
+D. c[0]=10
+
+
+
+
+
+4. What attribute is used to return the number of dimensions in an array?
+A. a.ndim
+B. a.dtype
+C. a.size
+D. a.shape
+
+
+
+
+
+===================================Objects and Classes===================================================
+
+
+1. What is the type of the following?
+["a"]
+A. str
+B. list
+
+
+
+
+
+2. What does a method do to an object?
+A. Changes or interacts with the object
+B. Returns a new values
+
+
+
+
+
+3. We create the object:
+Circle(3,'blue')
+What is the color attribute set to?
+A. 2
+B. 'blue'
+
+
+
+
+
+4. What is the radius attribute after the following code block is run?
+RedCircle=Circle(10,'red')
+RedCircle.radius=1
+A. 10
+B. 1
+C. 'red'
+
+
+
+
+
+5. What is the radius attribute
+after the following code block is run?
+BlueCircle=Circle(10,'blue')
+BlueCircle.add_radius(20)
+A. 10
+B. 20
+C. 30
+
+
+
+
+
+================================================Pands====================================================
+
+1. What python object do you cast to a dataframe?
+A. set
+B. tuple
+C. dictionary
+
+
+
+
+
+2. How would you access the first-row and first column in the dataframe df?
+A. df.ix[0,0]
+B. df.ix[0,1]
+C. df.ix[1,0]
+
+
+
+
+
+3. What is the proper way to load a CSV file using pandas?
+A. pandas.from_csv('data.csv')
+B. pandas.load('data.csv')
+C. pandas.read_csv('data.csv')
+D. pandas.import_csv('data.csv')
+
+
+
+
+
+===========================Reading and Writing Files with Open===========================================
+
+
+1. What are the most common modes used when opening a file?
+A. (a)ppend, (r)edline, (w)rite
+B. (a)ppend, (c)lose, (w)rite
+C. (s)ave, (r)ead, (w)rite
+D. (a)ppend, (r)ead, (w)rite
+
+
+
+
+
+2. What is the data attribute that will return the title of the file?
+A. File1.name
+B. File1.mode
+C. File1.close()
+D. File1.open()
+
+
+
+
+
+3. What is the command that tells Python to begin a new line?
+A. \n
+B. \e
+C. \q
+D. \b
+
+
+
+
+
+4. What attribute is used to input data into a file?
+A. File1.open()
+B. File1.close()
+C. File1.read()
+D. File1.write()
+
+
+
+
+
+=====================================REST APIs & HTTP Requests===========================================
+
+1. What is the function of "GET" in HTTP requests?
+A. Returns the response from the client to the requestor
+B. Carries the request to the client from the requestor
+C. Sends data to create or update a resource
+D. Deletes a specific resource
+
+
+
+
+
+2. What does URL stand for?
+A. Uniform Request Location
+B. Uniform Resource Locator
+C. Unilateral Resistance Locator
+D. Uniform Resource Learning
+
+
+
+
+
+3. What does the file extension "csv" stand for?
+A. Comma Separated Values
+B. Comma Separation Valuations
+C. Common Separated Variables
+D. Comma Serrated Values
+
+
+
+
+
+4. What is webscraping?
+A. The process to request and retrieve information from a client
+B. The process to display all data within a URL
+C. The process to extract data from a particular website
+D. The process to describe communication options
+
+
+
+
+
+===============================================Sets======================================================
+
+1. Consider the following set: {"A","A"), what will the result be when the set is created?
+A. {"A"}
+B. {"A","A"}
+
+
+
+
+
+2. What is the result of the following: type(set([1,2,3]))
+A. set
+B. list
+
+
+
+
+
+3. What method do you use to add an element to a set?
+A. extend append
+B. add
+
+
+
+
+
+4. What is the result of the following operation: ["a","b") &{"a"}
+A. ('a') 
+B. {'a','b')
+
+
+
+
+
+==========================================Simple APIs====================================================
+
+
+1. What does API stand for?
+A. Application Programming Interface
+B. Application Process Interface
+C. Application Programming Interaction
+D. Automatic Program Interaction
+
+
+
+
+
+2. The chart used to plot the cryptocurrency data in the lab is a
+A. Pole Chart
+B. Point and Figure Chart
+C. Candlestick Chart
+D. Line Chart
+
+
+
+
+
+3. What information are we trying to find for each day in the lab for the chart?
+A. Open (Min), High (First), Low (Max), Close (Last)
+B. Open (First), High (Max), Low (Min), Close (Last)
+C. Open (Last), High (Max), Low (Min), Close (First)
+D. Open (Max), High (First), Low (Last), Close (Min)
+
+
+
+
+
+====================================String Operations====================================================
+
+Name="Michael Jackson"
+
+1. What is the result of the following: Name[0]
+A. "n"
+B. "i"
+C. "M"
+
+
+
+
+
+2. What is the result of the following: Name[-1]
+A. "n"
+B. "M"
+C. "o"
+
+
+
+
+
+3. What is the output of the following: print("AB\nC\nDE")
+A. AB C DE
+B. AB CD E
+C. ABC DE
+
+
+
+
+
+4. What is the result of following?
+"hello Mike".find("Mike")
+If you are unsure, copy and paste the code in to Jupyter Notebook and check
+A. 6
+B. 6,7,8
+C. 5
+
+
+
+
+
+=============================================Types=======================================================
+
+1. What is the type of the following: 0
+A. float
+B. Int
+
+
+
+
+
+2. What is the type of the following number: 3.12323
+A. Int
+B. Float
+
+
+
+
+
+3. What is the result of the following: int(3.99)
+A. 3
+B. 3.99
+
+
+
+
+
+===================================Variables and Expression==============================================
+
+
+1. What is the result of the following operation: 11//2
+A. 5
+B. 5.5
+
+
+
+
+
+2. What is the value of x after the following is run:
+X=4
+x=x/2
+A. 4.0
+B. 2.0
+
+
+
+
+
+=========================================Dictionaries====================================================
+
+
+1. What are the keys of the following dictionary: {"a":1,"b":2}
+A. "a","b"
+B. 1,2
+
+
+
+
+
+2. Consider the following Python Dictionary:
+Dict={"A":1,"B":"2","C":[3,3,3],"D":(4,4,4),'E':5,'F':6}
+What is the result of the following operation: Dict["D"]
+A. (4, 4, 4)
+B. 1
+C. [3,3,3]
+
+
+
+
+
+===========================================Functions=====================================================
+
+1. What does the following function return: len(['A','B',1]) ?
+A. 3
+B. 2
+B. 4
+
+
+
+
+
+2. What does the following function return: len([sum([0,0,1])])?
+A. 1
+B. 0
+B. 3
+
+
+
+
+
+3. What is the value of list L after the following code segment is run:
+L=[1,3,2]
+sorted(L)
+
+A. L:[1,3,2]
+B. L:[1,2,3] 
+C. L:(0,0,0]
+
+
+
+
+
+4. From the video what is the value of c after the following:
+c=add1(2) 
+c=add1(10)
+A. 3
+B. 11
+C. 14
+
+
+
+
+
+5. what is the output of the following lines of code:
+def Print(A):
+	for a in A:
+		print(a+'1')
+Print(['a','b','c'])
+A. a b c
+B. a1 b1 c1
+C. a1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
